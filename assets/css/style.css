@@ -1,0 +1,101 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+.purple-bg {
+    background: #8b1fe3;
+}
+
+.custom-size {
+    width: 40%;
+    margin: auto;
+    display: table;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.signup {
+    background: #f0eafa;
+    color: #8b1fe3;
+    border-radius: 3rem !important;
+    font-weight: 600;
+}
+
+.cry-icon-img img {
+    width: 24px;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.purple-text {
+    color: #8b1fe3;
+    font-weight: 600;
+}
+
+.cry-image-center {
+    width: 50px;
+    margin: auto;
+    display: table;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.inbox-img {
+    width: 70%;
+    margin: auto;
+    display: table;
+}
+
+section h1,
+h2 {
+    font-weight: 400;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer a {
+    color: #000 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    section h1,
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .purple-bg .custom-size {
+        width: 100%;
+    }
+
+    .cry-icon-img {
+        padding: 0 !important;
+    }
+
+    .inbox-img {
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+}
